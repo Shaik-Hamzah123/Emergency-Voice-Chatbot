@@ -45,7 +45,7 @@ conda activate ./venv
 
 On **Windows**:
 ```bash
-conda activate .\venv
+conda activate venv/
 ```
 
 ### 4️⃣ Install Dependencies
@@ -68,33 +68,9 @@ Make sure your microphone is working as the app listens to voice input.
 
 ---
 
-## 📦 Requirements
-
-The project dependencies are listed in `requirements.txt`. If you’re curious, they likely include:
-
-- `speechrecognition`
-- `pyttsx3`
-- `pyaudio`
-- `opencv-python` (if webcam is used)
-- other supporting libraries
-
----
-
 ## 🖼️ Assets
 
 The file `emergency.jpg` is used within the app, possibly for UI or visual alerts.
-
----
-
-## ❗ Troubleshooting
-
-- If you face `pyaudio` install issues on Windows, use:
-  ```bash
-  pip install pipwin
-  pipwin install pyaudio
-  ```
-
-- Ensure microphone permissions are granted if using on macOS/Linux.
 
 ---
 
@@ -108,3 +84,11 @@ This project is open-source and available under the MIT License.
 
 Developed by **Shaik Hamzah**  
 GitHub: [Shaik-Hamzah123](https://github.com/Shaik-Hamzah123)
+
+---
+
+## 📚 Blog Article
+
+Read the full technical write-up on how this chatbot was built and how it works:  
+👉 [Emergency Operator Voice Chatbot – Analytics Vidhya](https://www.analyticsvidhya.com/blog/2025/05/emergency-operator-voice-chatbot/)
+
